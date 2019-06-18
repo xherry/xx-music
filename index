@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="boot/css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/comm.css"/>
+    <script src="boot/js/jquery.min.js"></script>
+    <script src="boot/js/popper.min.js"></script>
+    <script src="boot/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <iframe src="header.html" frameborder="0" class="my_header" scrolling="no"></iframe>
+    <div class="container-fluid zt">
+        <div class="dh">
+            <ul class="mb-0">
+                <li><a href="">推荐</a></li>
+                <li><a href="">排行榜</a></li>
+                <li><a href="">歌手</a></li>
+                <li><a href="">歌单</a></li>
+                <li><a href="">MV</a></li>
+            </ul>
+        </div>
+        <div class="carousel lb mb-3" data-ride="carousel" id="demo">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href=""><img class="w-100" src="img/1557482345076_.jpg" alt=""/></a>
+                </div>
+                <div class="carousel-item">
+                    <a href=""><img class="w-100" src="img/1559096738998_.jpg" alt=""/></a>
+                </div>
+                <div class="carousel-item">
+                    <a href=""><img class="w-100" src="img/1559272432910_.jpg" alt=""/></a>
+                </div>
+                <div class="carousel-item">
+                    <a href=""><img class="w-100" src="img/1559305802745_.jpg" alt=""/></a>
+                </div>
+            </div>
+            <div class="download w-100">
+                <ul>
+                   <li><a href="javascript:;">下载PC版</a></li>
+                   <li><a href="javascript:;">下载Andiord版</a></li>
+                   <li><a href="javascript:;">下载ipone版</a></li>
+                   <li><a href="javascript:;">下载其他版本</a></li> 
+                </ul>
+            </div> 
+        </div>
+        <div class="rec_nav" id="xzgd">
+            <span>推荐歌单</span>
+            <a class="topC1" href="javascript:;">每日推荐</a>
+            <a href="javascript:;">翻唱</a>
+            <a href="javascript:;">网络</a>
+            <a href="javascript:;">伤感</a>
+            <a href="javascript:;">欧美</a>
+            <span><a href="javascript:;">更多></a></span> 
+        </div>
+        <div class="tjgd" >
+            <ul id="ppgd">
+                <li ><div class="rec_list row">
+                        <div class="col-2 p-0 pc1" >
+                            <a href=""><img src="img/index/1560320499739_132026710b.jpg"  alt="" class="w-100 ">每日最新单曲推荐</a><p>19087.7万</p>
+                        </div>
+                        <div class="col-2 p-0 pc2">    
+                            <a href=""><img src="img/index/1524694356558_159493139_500.jpg"  alt="" class="w-100 ">【这节奏笑死】这不是我所认识的电音</a><p>21.5万</p>
+                        </div>
+                        <div class="col-2 p-0 pc3">
+                            <a href=""><img src="img/index/1528101603803_120722630_500.jpg"   alt="" class="w-100 ">还记得校园广播里播放过的旋律吗</a><p>169.7万</p>
+                        </div>
+                        <div class="col-2 p-0 pc4">
+                            <a href=""><img src="img/index/1518076149097_388061779_500.jpg"  alt="" class="w-100 ">怀旧|百听不厌的老歌</a><p>103.3万</p>
+                        </div>
+                        <div class="col-2 p-0 pc5">
+                            <a href=""><img src="img/index/1515555153986_110143885_500.jpg"   alt="" class="w-100 ">【经典】听一首老歌，想念一段时光</a><p>289.4万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li><div class="rec_list row">
+                        <div class="col-2 p-0 pc1" >
+                            <a href=""><img src="img/index/1557200165960_153918234_500.jpg"  alt="" class="w-100 ">翻唱‖中文歌以英文演绎，绝佳呈现♡</a><p>19087.7万</p>
+                        </div>
+                        <div class="col-2 p-0 pc2">    
+                            <a href=""><img src="img/index/1560592809569_468088693_500.jpg"  alt="" class="w-100 ">翻唱《霜雪千年》|花开一半夏</a><p>1531</p>
+                        </div>
+                        <div class="col-2 p-0 pc3">
+                            <a href=""><img src="img/index/1560584066240_166257218_500.jpg"   alt="" class="w-100 ">翻唱也醉人，爱上这些古风女声</a><p>7201</p>
+                        </div>
+                        <div class="col-2 p-0 pc4">
+                            <a href=""><img src="img/index/1560442309345_469284457_500.jpg"  alt="" class="w-100 ">清爽解压/解暑的夏日欧美翻唱</a><p>5291</p>
+                        </div>
+                        <div class="col-2 p-0 pc5">
+                            <a href=""><img src="img/index/1560506109500_177016866_500.jpg"   alt="" class="w-100 ">【经典】听一首老歌，想念一段时光</a><p>3.3万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li><div class="rec_list row">
+                        <div class="col-2 p-0 pc1" >
+                            <a href=""><img src="img/index/1558515198783_268403850_500.jpg"  alt="" class="w-100 ">才华与颜值兼具小鲜肉们 哪个是你的pick</a><p>181.1万</p>
+                        </div>
+                        <div class="col-2 p-0 pc2">    
+                            <a href=""><img src="img/index/1537323858577_132026710_500.jpg"  alt="" class="w-100 ">最新网络单曲推荐</a><p>4143.7万</p>
+                        </div>
+                        <div class="col-2 p-0 pc3">
+                            <a href=""><img src="img/index/1560806202109_370894949_500.jpg"   alt="" class="w-100 ">如果能拥有一个超能力，你想要什么？</a><p>169.7万</p>
+                        </div>
+                        <div class="col-2 p-0 pc4">
+                            <a href=""><img src="img/index/1560849118382_236002095_500.jpg"  alt="" class="w-100 ">【欧美流行】爱是人生的和弦</a><p>103.3万</p>
+                        </div>
+                        <div class="col-2 p-0 pc5">
+                            <a href=""><img src="img/index/1560779370162_236002095_500.jpg"   alt="" class="w-100 ">【清凉小调】喜欢夏天的气息</a><p>289.4万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li ><div class="rec_list row">
+                        <div class="col-2 p-0 pc1" >
+                            <a href=""><img src="img/index/1560301448807_183409029_500.jpg"  alt="" class="w-100 ">【伤感·华语】回忆伤人无声，唱不尽世间遗憾</a><p>5.6万</p>
+                        </div>
+                        <div class="col-2 p-0 pc2">    
+                            <a href=""><img src="img/index/1559835942257_153918234_500.jpg"  alt="" class="w-100 ">【情事收藏录】愿来生不负遇见の</a><p>2.1万</p>
+                        </div>
+                        <div class="col-2 p-0 pc3">
+                            <a href=""><img src="img/index/1560830676280_155355943_500.jpg"   alt="" class="w-100 ">(伤感男人心)看透爱情看透让我伤心的你</a><p>32</p>
+                        </div>
+                        <div class="col-2 p-0 pc4">
+                            <a href=""><img src="img/index/1560841571179_228757665_500.jpg"  alt="" class="w-100 ">伤感‖流行  愿你能被世界温柔以待_不慌不忙</a><p>137</p>
+                        </div>
+                        <div class="col-2 p-0 pc5">
+                            <a href=""><img src="img/index/1560621500383_162886323_500.jpg"   alt="" class="w-100 ">【古风_伤感】一砚清绝酒辞</a><p>325</p>
+                        </div>
+                    </div>
+                </li> 
+                <li><div class="rec_list row">
+                        <div class="col-2 p-0 pc1" >
+                            <a href=""><img src="img/index/1559753304212_153918234_500.jpg"  alt="" class="w-100 ">【欧美】舒缓小调，吹起心中慵懒风～</a><p>3.3万</p>
+                        </div>
+                        <div class="col-2 p-0 pc2">    
+                            <a href=""><img src="img/index/1537267867876_132026710_500.jpg"  alt="" class="w-100 ">最新欧美单曲推荐</a><p>336.9万</p>
+                        </div>
+                        <div class="col-2 p-0 pc3">
+                            <a href=""><img src="img/index/1560820070097_467663299_500.jpg"   alt="" class="w-100 ">〖放松〗带来好心情的欧美妙乐~</a><p>33</p>
+                        </div>
+                        <div class="col-2 p-0 pc4">
+                            <a href=""><img src="img/index/1560849118382_236002095_500.jpg"  alt="" class="w-100 ">【欧美流行】爱是人生的和弦</a><p>5</p>
+                        </div>
+                        <div class="col-2 p-0 pc5">
+                            <a href=""><img src="img/index/1560779423932_236002095_500.jpg"   alt="" class="w-100 ">【天籁女声】炎炎夏日，带走你的烦躁</a><p>1</p>
+                        </div>
+                    </div>
+                </li> 
+            </ul>
+        </div>
+    </div>
+    <iframe src="footer.html" frameborder="0" class="my_footer" scrolling="no"></iframe>
+    <script src="js/index.js"></script>
+</body>
+</html>
